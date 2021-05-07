@@ -193,7 +193,7 @@
 
         </Grid>
 
-        <StackLayout BackgroundColor="#2196F3" Padding="30" >
+        <StackLayout BackgroundColor="#2196F3" Padding="0" >
 
             <Label  Text="Intentos Fallidos: " 
                     x:Name="Intentos" 
@@ -209,6 +209,11 @@
                     x:Name="restrt"
                     Clicked="rstrt"
                     BackgroundColor="Green"
+                    TextColor="White"/>
+            <Button Text="Print"
+                    x:Name="print"
+                    Clicked="prnt"
+                    BackgroundColor="Purple"
                     TextColor="White"/>
             
             

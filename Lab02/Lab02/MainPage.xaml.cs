@@ -70,6 +70,9 @@ namespace Lab02
         void rstrt(object sender, System.EventArgs e) {
             selectedOnes.Clear();
             options.Clear();
+            foreach (Button btn in options) {
+                btn.Text = ".";
+            }
             //restart counters
             encontrados = "";
             intentos = 0;
@@ -82,9 +85,29 @@ namespace Lab02
 
         }
 
+        void prnt(object sender, System.EventArgs e) {
+            options.Clear();
+            for (int i = 1; i < 6; i++)
+            {
+                String row = "";
+                Button btn = null;
+                for (int j = 0; j < 5; j++)
+                {
+                    String name = "btn" + i + j;
+                    btn= this.FindByName<Button>(name);
+                    row = row + " " + btn.Text; 
+                }
+                Console.WriteLine(row  + " " + "\n");
+            }
+
+          
+        }
+
         void show(object sender, System.EventArgs e) {
             Button btn = (Button)sender;
-            btn.IsEnabled = false; 
+            
+            //boton es bloqueado
+            btn.IsEnabled = false;
           
             //mustra el signo
             btn.BackgroundColor = Color.FromHex("#ffffff");
@@ -121,6 +144,15 @@ namespace Lab02
                 Label qoo = this.FindByName<Label>("Intentos");
                 qoo.Text = "Intentos Fallidos:  " + intentos;
 
+            }
+
+
+        }
+
+        void gano() {
+            rstrt(null,null);
+            if (encontrados.Split(' ').Length > 24) {
+                DisplayAlert("Atencion", "Has ganado", "ok");
             }
 
         }
