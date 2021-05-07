@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab02.MainPage">
+
+
+    <ContentPage.Resources>
+
+        <Style x:Key="plainButton"
+         TargetType="Button">
+            <Setter Property="BackgroundColor"
+                    Value="Black" />
+            <Setter Property="TextColor"
+                    Value="Black" />
+            <Setter Property="CornerRadius"
+                    Value="0" />
+            <Setter Property="FontSize"
+                    Value="40" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout BackgroundColor="#2196F3">
+        <Frame BackgroundColor="#2196F3" Padding="24">
+            <Label  Text="Encuentra el par" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Grid RowSpacing="1"
+          ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1" />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <Button Text="."
+                x:Name="btn10"
+                Clicked="show"
+                Grid.Row="1"
+                Grid.Column="0"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn11"
+                Clicked="show"
+                Grid.Row="1"
+                Grid.Column="1"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn12"
+                Clicked="show"
+                Grid.Row="1"
+                Grid.Column="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn13"
+                Clicked="show"
+                Grid.Row="1"
+                Grid.Column="3"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn14"
+                Clicked="show"
+                Grid.Row="1"
+                Grid.Column="4"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn20"
+                Clicked="show"                    
+                Grid.Row="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn21"
+                Clicked="show"
+                Grid.Row="2"
+                Grid.Column="1"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn22"
+                Clicked="show"
+                Grid.Row="2"
+                Grid.Column="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn23"
+                Clicked="show"
+                Grid.Row="2"
+                Grid.Column="3"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn24"
+                Clicked="show"
+                Grid.Row="2"
+                Grid.Column="4"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn30"
+                Clicked="show"
+                Grid.Row="3"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn31"
+                Clicked="show"
+                Grid.Row="3"
+                Grid.Column="1"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn32"
+                Clicked="show"
+                Grid.Row="3"
+                Grid.Column="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn33"
+                Clicked="show"
+                Grid.Row="3"
+                Grid.Column="3"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn34"
+                Clicked="show"
+                Grid.Row="3"
+                Grid.Column="4"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn40"
+                Clicked="show"
+                Grid.Row="4"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn41"
+                Clicked="show"
+                Grid.Row="4"
+                Grid.Column="1"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn42"
+                Clicked="show"
+                Grid.Row="4"
+                Grid.Column="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn43"
+                Clicked="show"
+                Grid.Row="4"
+                Grid.Column="3"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn44"
+                Clicked="show"
+                Grid.Row="4"
+                Grid.Column="4"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn50"
+                Clicked="show"
+                Grid.Column="0"
+                Grid.Row="5"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+				x:Name="btn51"
+                Clicked="show"
+				Grid.Row="5"
+                Grid.Column="1"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn52"
+                Clicked="show"
+				Grid.Row="5"
+                Grid.Column="2"
+                Style="{StaticResource plainButton}" />
+            <Button Text="."
+                x:Name="btn53"
+                Clicked="show"
+				Grid.Row="5"
+                Grid.Column="3"
+                Style="{StaticResource plainButton}"/>
+            <Button Text="."
+                x:Name="btn54"
+                Clicked="show"
+				Grid.Row="5"
+                Grid.Column="4"
+                Style="{StaticResource plainButton}" />
+
+        </Grid>
+
+        <StackLayout BackgroundColor="#2196F3" Padding="30" >
+
+            <Label  Text="Intentos Fallidos: " 
+                    x:Name="Intentos" 
+                    HorizontalTextAlignment="left" 
+                    TextColor="White" 
+                    FontSize="24"/>
+            <Label  Text="Encontrados: " 
+                    x:Name="Encontrados" 
+                    HorizontalTextAlignment="left" 
+                    TextColor="White" 
+                    FontSize="24"/>
+            <Button Text="Reiniciar"
+                    x:Name="restrt"
+                    Clicked="rstrt"
+                    BackgroundColor="Green"
+                    TextColor="White"/>
+            
+            
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

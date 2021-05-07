@@ -1,0 +1,14 @@
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\bin\Debug\netstandard2.0\Lab02.deps.json
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\bin\Debug\netstandard2.0\Lab02.dll
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\bin\Debug\netstandard2.0\ref\Lab02.dll
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\bin\Debug\netstandard2.0\Lab02.pdb
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.csprojAssemblyReference.cache
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.AssemblyInfo.cs
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.dll
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\ref\Lab02.dll
+C:\Users\anton\Desktop\Moviles\labs\Lab02\Lab02\Lab02\Lab02\obj\Debug\netstandard2.0\Lab02.pdb
